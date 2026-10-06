@@ -1,0 +1,7 @@
+ccxt>=4.2.0
+pandas>=2.0.0
+python-dotenv>=1.0.0
+schedule>=1.2.0
+matplotlib>=3.7.0
+mplfinance>=0.12.10b0
+six>=1.16.0

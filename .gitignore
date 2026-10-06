@@ -1,0 +1,31 @@
+# --- Secrets ---------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Generated output ------------------------------------------------------
+charts/
+*.out
+*.log
+logs/
+paper_trades_state.json
+
+# --- Local tooling ---------------------------------------------------------
+.claude/settings.local.json
+
+# --- Editors / OS ----------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
